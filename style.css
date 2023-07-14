@@ -24,7 +24,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top:6rem ;
+    margin-top:9rem ;
 }
 .row-1{
     display: flex;
