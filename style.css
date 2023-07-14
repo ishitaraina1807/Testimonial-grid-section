@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root{
+    --violet: hsl(263, 55%, 52%);
+    --grayish_blue-dark: hsl(217, 19%, 35%);
+    --black-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --lightgrey: hsl(0, 0%, 81%);
+    --grayish_blue-light: hsl(210, 46%, 95%);
+}
+*::after{
+    margin: 0;
+    padding: 0;
+}
+*::before{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--grayish_blue-light);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:6rem ;
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+}
+.cards{
+    margin: 0.7rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+    height: auto;
+    padding-bottom: 0.5rem;
+}
+.card1{
+background-color: var(--violet);
+max-width: 24rem;
+color: var(--white);
+background-image: url(/images/bg-pattern-quotation.svg);
+background-repeat: no-repeat;
+background-position: 80% top;
+}
+.card2{
+max-width: 10rem;
+background-color: var(--grayish_blue-dark);
+color: var(--white);
+}
+.card3{
+    max-width: 10rem;
+    background-color: white;
+    color: var(--grayish_blue-dark);
+    box-shadow: hsl(214, 28%, 84%) 20px 15px 40px 2px;
+}
+.card4{
+    max-width: 24rem;
+    background-color: var(--black-blue);
+    color: var(--white);
+    box-shadow: hsl(214, 28%, 84%) 20px 15px 40px 2px;
+}
+.card5{
+max-width: 10rem;
+background-color: var(--white);
+color: var(--grayish_blue-dark);
+box-shadow: hsl(214, 28%, 84%) 8px 15px 35px 0px;
+}
+.card3 p, .card5 p{
+    color: hsl(0, 1%, 58%);
+}
+.card3 h2{
+max-width: 9rem;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+}
+.user-name{
+    margin-left: 1rem;
+    line-height: 0px;
+}
+.user-name h2, span{
+    font-size: 10px;
+}
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50px;
+}
+.card1 img, .card4 img {
+    border: 3px solid hsl(263, 52%, 59%);
+}
+span, p{
+    color: var(--lightgrey);
+    font-size: 10px;
+    line-height: 1rem;
+
+}
+.user-review h2{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+h2{
+    font-weight: 600;
+    font-size: 0.8rem;
+}
